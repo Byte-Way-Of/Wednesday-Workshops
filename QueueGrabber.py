@@ -6,8 +6,8 @@ import sys
 from pprint import pprint
 
 # Setup information for environment variables needed to run the API in the first place
-os.environ["SPOTIPY_CLIENT_ID"]  = "72e6a8650c3d4cdea4f71d1a53d0ea32"
-os.environ["SPOTIPY_CLIENT_SECRET"] = "5be64385f20e4079853687e2c92d7f48"
+os.environ["SPOTIPY_CLIENT_ID"]  = ""
+os.environ["SPOTIPY_CLIENT_SECRET"] = ""
 os.environ["SPOTIPY_REDIRECT_URI"] = "http://example.com"
 username = os.environ["SPOTIPY_CLIENT_ID"]
 
